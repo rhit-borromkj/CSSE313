@@ -1,0 +1,35 @@
+Katie Borromeo
+CSSE313: Artificial Intelligence
+Dr. Wollowski
+Sudoku Assignment: Is it Intelligent?
+
+Since the dawn of time, mankind has continually reprised the question of what makes us different from every other living thing we know of.
+For a long time, that extra quality that humanity has was considered our intelligence. The question of what defines intelligence has similarly
+been reworked countless times as more and more artificial creations get closer to emulating that elusive thing that makes humans unique.
+Even today, psychologists and philosophers each define intelligence differently. Some consider it the ability to create good responses from
+the point of view of truth or facts. Others recognize it as having the ability to learn to adjust oneself in the environment. Still more define
+it as, basically, the capacity for knowledge, or the capacity to acquire capacity. Although the idea of intelligence is constantly in flux,
+there remains a common thread throughout every psychologist and philosopher’s ideas: intelligence, for the purposes of this paper, is adaptable
+and inseparable from the concept of learning.
+
+To investigate the intelligence of our sudoku problem solver, we must first understand what it does. In short, the sudoku code can solve sudoku
+puzzles much faster than a human. From this simple fact, we can come up with the conclusion that the sudoku problem solver is smart. After all,
+sudoku puzzles can be difficult, and you must be relatively smart to solve some of the hard ones. But here is where opinions can already start to
+diverge. Does smart equal intelligent? The answer to that question is, of course, it depends on how you define smart and intelligent, but using the
+definition of intelligent we established earlier, we will say that no, smart does not equal intelligent. Just because this program can solve
+difficult problems quickly does not mean that it demonstrates any qualities of intelligence. The most difficult problem could eventually be solved
+using a brute-force method, but does that make a brute-force algorithm intelligent? No. Therefore, the sudoku solver’s talent for solving sudoku
+problems does not itself indicate that the program is intelligent.
+
+Even more important than what the program does is how it achieves its goals. This sudoku solver is, of course, a backtracking algorithm that
+evaluates possible solutions in a depth-first search of the tree of possible sudoku board states. To put it more frankly, this algorithm is a
+specific, fast searching algorithm. It does not make decisions, rather guesses decisions and evaluates the resulting consequences of those guesses.
+The sudoku solver does not consider putting a 1 beside another 1 to be a bad decision until after it has tried to put a 1 beside another 1 and realized
+that would make the puzzle incorrect. This method of solving puzzles has no capacity to learn. The sudoku solver will never improve its method of
+solving puzzles, only improve its solutions. This means that there is no capacity to learn present, no capacity for knowledge, and therefore the sudoku
+solver cannot possibly be intelligent.
+
+To make for a better philosophical argument, I refrained from referring to the solver as a program or algorithm, but that is ultimately what the sudoku
+solver is. It is an algorithm that uses a specific tactic to achieve its goals. It has no ability to self-reflect, no way of retaining information
+between runs, nothing that could prove it thinks at all, as it rather attempts then outputs steps as it builds a solution. Therefore, it must be
+concluded that the sudoku solving algorithm is not intelligent.
